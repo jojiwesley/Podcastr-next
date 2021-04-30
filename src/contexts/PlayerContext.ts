@@ -14,8 +14,9 @@ type PlayerContextData = {
     isPlaying: boolean;
     play: (episode: Episode) => void;
     setPlayingState: (state: boolean) => void;
-    togglePlay: () => void;
-
+    togglePlay: () =>;
+    
 };
 
-export const PlayerContext = createContext({} as PlayerContextData); 
+export const PlayerContext = createContext({} as PlayerContextData);
+//olá git hubb  
